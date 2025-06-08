@@ -1,0 +1,240 @@
+.home-page
+{
+    background-color: rgb(214, 208, 208);
+    flex-direction: column;
+}
+/*Section 1*/
+.Section_1
+{
+    background-color: rgb(245, 233, 233);
+    margin-bottom:-16px;
+    box-shadow:20px 20px rgba(31, 30, 30, 0) inset;
+}
+.profile-icon
+{
+    border-radius:30px;
+    height: 50px;
+    width:50px;
+    position:fixed;
+    top:10px;
+    right: 10px;
+}
+.name
+{
+    display: flex;
+    padding-left: 150px;
+}
+.logo
+{
+    border-radius:120px;
+    padding-top: 2px;
+    height: 160px;
+    width:162px;
+    padding-bottom: 2px;
+}
+.Welchama-name
+{
+    color: black;
+    font-family: aerial;
+    font-size: 14px;
+}
+.welchama-title
+{
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 4px;
+}
+.moto
+{
+    padding-left:0px;
+}
+/*Section 2*/
+.menu {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 0px;
+    background-color:forestgreen;
+    color: white;
+    padding-right:10px;
+}
+.menu ul li
+{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+}
+/*Section 3-carousel*/
+.image-page
+{
+    display:flex;
+}
+.carousel {
+    margin: auto;
+    overflow: hidden;
+    width: 70%;
+    margin-left: 0px;
+  }
+  
+  .slides {
+    display: flex;
+    animation: slide 15s infinite;
+  }
+  
+  @keyframes slide {
+    0%, 33% { transform: translateX(0); }
+    38%, 71% { transform: translateX(-100%); }
+    76%, 100% { transform: translateX(-200%); }
+  }
+  
+  .slide {
+    flex: 1 0 100%;
+}
+  
+  .slide img {
+    width: 100%;
+    display: block;
+}
+.slides,img
+{
+    height:500px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+/*Section 3 col2*/
+.motion
+{
+    width:30%;
+    background-color: rgb(216, 208, 208);
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    align-content: center;
+    font-style:normal;
+    font-family: aerial;
+    font-weight: 300;
+    color:black;
+}
+/*Section 4*/
+.information-site
+{
+    background-color: rgb(189, 198, 206);
+    display:flex;
+    color: black;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: large;
+    justify-content: center;
+    padding-right: 50px; 
+}
+.address
+{
+    font-size: small;
+}
+.affiliations
+{
+    padding-right: 50px;  
+}
+.Quick-Access
+{
+    padding-right: 50px;  
+}
+/*about us*/
+.about {
+    background-color: yellowgreen;
+    color: white;
+    width: auto;
+}
+.thinking_image {
+    float: right;
+    width: 100px;
+    z-index: 2;
+    height: 100px;
+    margin-right: 150px;
+    padding-top: 5px;
+    border-radius: 80px;
+}
+/*contact us*/
+.contact-container 
+ {
+   display: flex;
+    justify-content: space-between;
+    padding-right:50px;
+}
+.contact-info, .contact-form
+{
+    width: 60%;
+}
+.contact-info h3
+{
+    font-size: 32px;
+    color: black;
+}
+.contact-info p
+{
+    margin: 10px 0;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.icon
+{
+    margin-right: 10px;
+}
+.contact-form input, .contact-form textarea
+{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid grey;
+    border-bottom: 2px solid green;
+}
+.contact-form button
+{
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.contact-form button:hover
+{
+    background-color: gray;
+}
+.field-row
+{
+    display: flex;
+    gap: 10px;
+}
+.field-row input
+{
+    width: 100%;
+}
+/*Tender*/
+table
+{
+border:none;
+display: flex; 
+justify-content: center;
+}
+tr,th,td
+{
+border:solid;
+border-width:1px;
+color:white;
+padding-left:20px;
+padding-right:20px;
+padding-top:20px;
+padding-bottom:20px;
+background-color: gray;
+}
+button
+{
+cursor:pointer;
+}
+.tender
+{
+ color:white;
+}
+
